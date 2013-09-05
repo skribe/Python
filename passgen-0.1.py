@@ -11,7 +11,7 @@ Functional Requirments: Choose number and type of characters to generate
     Display password to user
 Maintainer: skribeproductions@gmail.com
 '''
-VERSION = 0.1
+VERSION = 0.11
 
 #import modules
 import random, string
@@ -29,7 +29,10 @@ numchar = 8
 password =''
 pw_dic = LOWER_SET + UPPER_SET + NUMBER_SET + SPECIAL_SET
 
+#do stuff
 for chars in range(numchar):
     password += random.choice(pw_dic)
 
+
+#output
 print(password)
