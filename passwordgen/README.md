@@ -1,4 +1,0 @@
-passgen
-=======
-
-Password Generator
